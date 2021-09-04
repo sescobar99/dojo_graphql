@@ -1,6 +1,7 @@
 type Query{
    "Retornar una lista de estudiantes"
    estudiantes: [Estudiante]!
+   cursos: [Curso]!
 }
  
 "Retornar un objeto estudiante"
@@ -27,6 +28,6 @@ type Curso{
 type Review{
      id: ID
      name: String!
-     points: Int!
+     points: Float!
      comment: String!
 }
